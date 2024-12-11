@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amitrajeet's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(182, 18, 223);
+        color: rgb(241, 240, 240);
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(54, 16, 71);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 1.7rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 80px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2rem;
+        margin: 30px 0;
+      }
+      .rightSection img {
+        width: 80%;
+        margin: 55px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Amitrajeet's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi! My name is Amitrajeet.
+          <div>and I am a Devops Engineer</div>
+        </div>
+        <div class="rightSection"><img src="devops.png" alt=""></div>
+      </section>
+    </main>
+  </body>
 </html>
